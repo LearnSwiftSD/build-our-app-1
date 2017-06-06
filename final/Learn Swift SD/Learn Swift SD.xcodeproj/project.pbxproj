@@ -13,6 +13,7 @@
 		B3014DF11EE597E70069F74D /* RepositoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3014DF01EE597E70069F74D /* RepositoryListViewController.swift */; };
 		B3014DF41EE599940069F74D /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3014DF31EE599940069F74D /* Repository.swift */; };
 		B3014DF61EE59ADC0069F74D /* FakeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3014DF51EE59ADC0069F74D /* FakeData.swift */; };
+		B3014DFB1EE64AFF0069F74D /* RepositoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3014DFA1EE64AFF0069F74D /* RepositoryTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B3014DF01EE597E70069F74D /* RepositoryListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryListViewController.swift; sourceTree = "<group>"; };
 		B3014DF31EE599940069F74D /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		B3014DF51EE59ADC0069F74D /* FakeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeData.swift; sourceTree = "<group>"; };
+		B3014DFA1EE64AFF0069F74D /* RepositoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +58,13 @@
 		B3014DDD1EE5975B0069F74D /* Learn Swift SD */ = {
 			isa = PBXGroup;
 			children = (
-				B3014DF71EE59BD90069F74D /* View Controllers */,
+				B3014DF91EE64AEA0069F74D /* Cells */,
 				B3014DF21EE5997C0069F74D /* Entities */,
+				B3014DFC1EE64B1A0069F74D /* Storyboards */,
+				B3014DF71EE59BD90069F74D /* View Controllers */,
 				B3014DDE1EE5975B0069F74D /* AppDelegate.swift */,
-				B3014DE21EE5975B0069F74D /* Main.storyboard */,
 				B3014DE51EE5975B0069F74D /* Assets.xcassets */,
 				B3014DEA1EE5975B0069F74D /* Info.plist */,
-				B3014DF51EE59ADC0069F74D /* FakeData.swift */,
 			);
 			path = "Learn Swift SD";
 			sourceTree = "<group>";
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				B3014DF31EE599940069F74D /* Repository.swift */,
+				B3014DF51EE59ADC0069F74D /* FakeData.swift */,
 			);
 			name = Entities;
 			sourceTree = "<group>";
@@ -81,6 +84,22 @@
 				B3014DF01EE597E70069F74D /* RepositoryListViewController.swift */,
 			);
 			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B3014DF91EE64AEA0069F74D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B3014DFA1EE64AFF0069F74D /* RepositoryTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		B3014DFC1EE64B1A0069F74D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B3014DE21EE5975B0069F74D /* Main.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +177,7 @@
 				B3014DF11EE597E70069F74D /* RepositoryListViewController.swift in Sources */,
 				B3014DDF1EE5975B0069F74D /* AppDelegate.swift in Sources */,
 				B3014DF61EE59ADC0069F74D /* FakeData.swift in Sources */,
+				B3014DFB1EE64AFF0069F74D /* RepositoryTableViewCell.swift in Sources */,
 				B3014DF41EE599940069F74D /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
